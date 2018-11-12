@@ -1,0 +1,44 @@
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+    
+    <record model="ir.ui.view" id="convalidaciones.list_convalidaciones_form">
+      <field name="name">convalidaciones.convalidacion.form</field>
+      <field name="model">convalidaciones.convalidacion</field>
+      <field name="arch" type="xml">
+        <form>
+          <sheet>
+                <field name="fecha_convalidacion"/>
+                <field name="modulo_id"/>
+                <field name="alumno_id"/>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+
+    <record model="ir.ui.view" id="convalidaciones.list_convalidaciones_tree">
+      <field name="name">convalidaciones.convalidacion.tree</field>
+      <field name="model">convalidaciones.convalidacion</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="fecha_convalidacion"/>
+          <field name="modulo_id"/>
+          <field name="alumno_id"/>
+        </tree>
+      </field>
+    </record>
+    
+    <record model="ir.actions.act_window" id="convalidaciones.action_window_convalidaciones">
+      <field name="name">Ventana de Convalidaciones</field>
+      <field name="res_model">convalidaciones.convalidacion</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem name="Convalidaciones" id="convalidaciones.menu_convalidaciones" parent="convalidaciones.menu_root"/>
+    
+    <menuitem name="Listado" id="convalidaciones.convalidaciones_list" parent="convalidaciones.menu_convalidaciones"
+              action="convalidaciones.action_window_convalidaciones"/>
+    
+  </data>
+</odoo>

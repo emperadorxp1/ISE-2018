@@ -1,0 +1,74 @@
+<odoo>
+  <data>
+    
+    <record model="ir.ui.view" id="convalidaciones.list_areas_form">
+      <field name="name">convalidaciones.area.form</field>
+      <field name="model">convalidaciones.area</field>
+      <field name="arch" type="xml">
+        <form string="Listado de Areas">
+            <sheet>
+                <separator string="Areas" colspan="2"/>
+                    <group colspan="2" col="2">
+                        <field name="area_id"/>
+                        <field name="area_name"/>
+                        <field name="area_encargado"/>
+                    </group>
+            </sheet>
+        </form>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="convalidaciones.list_areas_tree">
+      <field name="name">convalidaciones.areas.tree</field>
+      <field name="model">convalidaciones.area</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="area_id"/>
+          <field name="area_name"/>
+          <field name="area_encargado"/>
+        </tree>
+      </field>
+    </record>
+    
+
+    <!-- actions opening views on models -->
+    
+    <record model="ir.actions.act_window" id="convalidaciones.action_window_areas">
+      <field name="name">Ventana de Areas</field>
+      <field name="res_model">convalidaciones.area</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+
+    <!-- server action to the one above -->
+    <!--
+    <record model="ir.actions.server" id="convalidaciones.action_server">
+      <field name="name">convalidaciones server</field>
+      <field name="model_id" ref="model_convalidaciones_convalidaciones"/>
+      <field name="state">code</field>
+      <field name="code">
+        action = {
+          "type": "ir.actions.act_window",
+          "view_mode": "tree,form",
+          "res_model": self._name,
+        }
+      </field>
+    </record>
+    -->
+
+    <!-- Top menu item -->
+    <!--
+    <menuitem name="convalidaciones" id="convalidaciones.menu_root"/>
+    -->
+    <!-- menu categories -->
+    
+    <menuitem name="Areas" id="convalidaciones.areas" parent="convalidaciones.menu_root"/>
+    
+
+    
+    <menuitem name="List" id="convalidaciones.areas_list" parent="convalidaciones.areas"
+              action="convalidaciones.action_window_areas"/>
+   
+   
+  </data>
+</odoo>
