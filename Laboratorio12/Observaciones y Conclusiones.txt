@@ -1,0 +1,12 @@
+﻿Observaciones Y Conclusiones
+	El proceso de administrar permisos para poder acceder o realizar acciones en un sistema 
+	es de suma importancia para la seguridad de información.
+	
+	El módulo de website nos permite ahorrar una cantidad enorme de trabajo en el desarrollo 
+		de la interfaz pública de nuestra aplicación.
+	Es necesario comprender y conocer los tipos de comunicación e integración que ofrece
+		Odoo para comunicarse con otras aplicaciones.
+
+	A través de los años el ser humano ha creado nuevos servicios que ha permitido un  acercamiento con los clientes, conociendo sus necesidades reales, esto va siempre de la mano de la tecnología.
+	Actualmente quien no implemente software tecnológico en su empresa estará fuera del mercado.
+	Utilizamos conocimientos aprendidos anteriormente para implementar el presente laboratorio.
