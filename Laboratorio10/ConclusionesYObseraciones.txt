@@ -1,0 +1,8 @@
+Con su modelo de negocio gratuito, Open ERP combina las ventajas de un sistema ERP completo con la flexibilidad de una solución interna.
+El código de fuente abierta, la flexibilidad general del proyecto y sus cientos de módulos le permiten construir una solución a partir de una selección de los módulos ya disponibles y luego puede actualizarla libremente a medida que sus necesidades evolucionen.
+Los resultados estarán en el extremo superior de lo que podría esperar de cualquier sistema ERP, y mucho menos un sistema de código abierto.
+Las considerables ganancias en productividad, eficiencia y visibilidad se hacen evidentes solo unos meses después de la implementación.
+Con frecuencia recibimos la gratitud de la alta gerencia que obtiene mejores resultados de sus negocios porque han adoptado Open ERP.
+Las empresas más grandes a menudo prefieren una ruta de implementación más clásica.
+A pesar de que la simplicidad de Open ERP hace que esta tarea sea más fácil que con otros sistemas, no puede ocultar el hecho de que la implementación de un proyecto es compleja e introduce grandes cambios en una empresa.
+Utilizamos conocimientos aprendidos anteriormente para implementar el presente laboratorio.
