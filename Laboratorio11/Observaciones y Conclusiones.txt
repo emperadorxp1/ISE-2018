@@ -1,0 +1,7 @@
+﻿La realización de presenta aboratorio nos permite conocer mejor las herrmaientas y características que nos ofrece Odoo par ael desarrollo de ERP.
+El uso de decoradores nos permite dar una mejor apariencia a nuestras listas de registros.
+El filtrado y la búsqueda por campos personalizados, asimismo el agrupamento de los registros nos ofrece un gran abanico de alternativas para dar una mejor experiencia de usuario.
+Se conocieron nuevas vistas bastante útiles, como las vistas de Calendar y la vista de kanban, que mejoran notablemente la forma en que se ven los datos o registros.
+Aunque estas inversiones sean un poco costosas y lleven tiempo, es claro saber que son  grandes inversiones para obtener grandes resultados, es necesario que cada uno de los departamentos de la compañía estén integrados, siempre trabajando por el mismo objetivo.
+Los avances tecnológicos continúan cambiando el estilo de vida de la gente, desde la manera de adquirir productos y servicios, hasta la manera de comunicárselo a la empresa.
+Utilizamos conocimientos aprendidos anteriormente para implementar el presente laboratorio.
